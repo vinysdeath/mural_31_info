@@ -132,7 +132,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
     },
-        /* GABRIEL PEREIRA HAMERSKI */
+    /* GABRIEL PEREIRA HAMERSKI */
     { 
       id: "gabriel-hamerski",
       nome: "Gabriel Pereira Hamerski",
@@ -150,12 +150,12 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
     },
-      /* RAFAEL DE MATTOS CARVALHO */
+    /* GUSTAVO BORGES RIBEIRO */
     { 
-      id: "rafael-mattos",
-      nome: "Rafael de Mattos Carvalho",
-      apelido: "Rafão",
-      cor: "#6308b9",
+      id: "gustavo-borges",
+      nome: "Gustavo Borges Ribeiro",
+      apelido: "Borges",
+      cor: "#cd1313",
       frase: "Frase de exemplo.",
       fotos: ["", "", "", "", ""],
       legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
@@ -168,7 +168,96 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
     },
+    /* GUSTAVO GAMARRA FAGUNDES */
+    { 
+      id: "gustavo-gamarra",
+      nome: "Gustavo Gamarra Fagundes",
+      apelido: "Gamarra",
+      cor: "#f5c61d",
+      frase: "Frase de exemplo.",
+      fotos: ["", "", "", "", ""],
+      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
+      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
 
+Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
+    contatos: [                       // rótulo = texto do botão; link = para onde ele leva
+      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
+      { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
+    ]
+    },
+    /* HEITOR STRECK ORTIZ */
+    { 
+      id: "heitor-streck",
+      nome: "Heitor Streck Ortiz",
+      apelido: "JJpato",
+      cor: "#fde805",
+      frase: "Está tudo bem agora. Por quê? Porque eu estou aqui!",
+      fotos: ["", "", "", "", ""],
+      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
+      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+
+Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
+    contatos: [                       // rótulo = texto do botão; link = para onde ele leva
+      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
+      { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
+    ]
+    },
+    /* JOSÉ MURIEL FAGUNDES BOEIRA */
+    { 
+      id: "jose-muriel",
+      nome: "José Muriel Fagundes Boeira",
+      apelido: "Muriel",
+      cor: "#e7510c",
+      frase: "Frase de exemplo.",
+      fotos: ["", "", "", "", ""],
+      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
+      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+
+Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
+    contatos: [                       // rótulo = texto do botão; link = para onde ele leva
+      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
+      { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
+    ]
+    },
+    /* JÚLIA DA SILVA ANTUNES */
+    { 
+      id: "julia-antunes",
+      nome: "Júlia da Silva Antunes",
+      apelido: "Ritinha",
+      cor: "#edae2e",
+      frase: "Frase de exemplo.",
+      fotos: ["", "", "", "", ""],
+      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
+      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+
+Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
+    contatos: [                       // rótulo = texto do botão; link = para onde ele leva
+      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
+      { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
+    ]
+    },
+    /* RAFAEL DE MATTOS CARVALHO */
+    { 
+      id: "rafael-mattos",
+      nome: "Rafael de Mattos Carvalho",
+      apelido: "Rafão",
+      cor: "#6308b9",
+      frase: "Trauma pa caralho, e nada do meu cabelo ficar branco.",
+      fotos: ["", "", "", "", ""],
+      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
+      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+
+Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
+    contatos: [                       // rótulo = texto do botão; link = para onde ele leva
+      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
+      { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
+    ]
+    },
     /* VINÍCIUS AGUIAR DE BARROS */
     { 
       id: "vinicius-aguiar",
