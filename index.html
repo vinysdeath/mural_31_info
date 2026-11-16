@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Memorial Digital da Turma 31 — Técnico em Informática Integrado ao Ensino Médio, IFFar.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E🎓%3C/text%3E%3C/svg%3E">
+<title>Memorial Digital · Turma 31 · IFFar</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topo">
+  <b>🎓 Turma 31</b>
+  <!-- Menu: cada link aponta para o id de uma seção (#apresentacao, #linha-do-tempo...) -->
+  <nav class="menu">
+    <a href="#apresentacao">Início</a><a href="#linha-do-tempo">Linha do Tempo</a>
+    <a href="#projetos">Projetos</a><a href="#perfis">Perfis</a><a href="#homenagens">Homenagens</a>
+  </nav>
+  <button id="btnGuia" aria-pressed="false">📘 Modo Guia</button>
+</header>
+
+<main>
+  <!-- Caixa explicativa: só aparece com o Modo Guia ligado -->
+  <aside class="guia-box">
+    <b>📘 Modo Guia ligado.</b> Cada bloco tracejado mostra em <u>etiquetas amarelas</u> qual equipe cuida dele e qual variável do código controla o conteúdo.
+    <ol>
+      <li><b>Curadoria:</b> crie a pasta <code>imagens/nome-do-aluno/</code> e salve as 5 fotos (foto1.jpg … foto5.jpg).</li>
+      <li><b>Dev:</b> abra <code>js/dados.js</code>, copie o objeto marcado <code>MOLDE</code> dentro de <code>ALUNOS</code>, cole abaixo e troque os campos.</li>
+      <li><b>Redação:</b> cole o texto livre do aluno no campo <code>texto</code> (um parágrafo novo = uma linha em branco).</li>
+      <li>Salve e atualize a página: o card e a página do aluno aparecem sozinhos.</li>
+    </ol>
+  </aside>
+
+  <!-- ================= TELA INICIAL (todas as seções) ================= -->
+  <div id="home">
+    <section class="sec hero" id="apresentacao"></section>
+    <section class="sec" id="linha-do-tempo"></section>
+    <section class="sec" id="projetos"></section>
+    <section class="sec" id="perfis"></section>
+    <section class="sec" id="homenagens"></section>
+  </div>
+
+  <!-- ================= TELA DO ALUNO (preenchida pelo JS) ================= -->
+  <div id="aluno" hidden></div>
+</main>
+
+<footer>Turma 31 · Técnico em Informática Integrado ao Ensino Médio · IFFar<br>Feito por todos nós 💚</footer>
+<dialog id="lb"><img alt=""></dialog>
+
+<script src="js/dados.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
