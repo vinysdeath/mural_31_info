@@ -67,7 +67,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       apelido: "Bernardo",
       cor: "#0f62fd",
       frase: "Frase de exemplo.",
-      fotos: ["", "", "", "", ""],
+      fotos: ["", "", "", "", "img/bernardo-mach/placeholder.png"],
       legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
       texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
 
@@ -427,7 +427,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       apelido: "Aguiar",
       cor: "#4c4c58",
       frase: "Memento mori.",
-      fotos: ["", "", "", "", "img/vinicius-aguiar/mc1_5306.jpg"],
+      fotos: ["", "", "", "", "img/vinicius-aguiar/mc1_5306.JPG"],
       legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
       texto: `Caso ocorra uma investigação por parte de qualquer órgão federal ou entidade semelhante, esclareço que não tenho qualquer envolvimento com este grupo ou com as pessoas que dele fazem parte; 
       
