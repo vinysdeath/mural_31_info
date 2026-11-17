@@ -41,8 +41,8 @@ const PROJETOS = [
 
 // SEÇÃO 4: Alunos. Cada aluno é UM objeto { ... } separado por vírgula.
 const ALUNOS = [
-  {
-    /* >>>>>>>>>> MOLDE: copie este bloco inteiro para cada novo aluno <<<<<<<<<< */
+  /* {
+     >>>>>>>>>> MOLDE: copie este bloco inteiro para cada novo aluno <<<<<<<<<< 
     id: "aluno-exemplo",              // endereço da página. Só letras minúsculas, números e hífen. Único!
     nome: "Aluno Exemplo da Silva",   // nome completo
     apelido: "Exemplo",               // como a turma o chama
@@ -58,8 +58,8 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
-    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> fim do molde <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-  },
+     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> fim do molde <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+  }, */
   /* BERNARDO MACH DE LIMA */
     { 
       id: "bernardo-mach",
@@ -427,13 +427,15 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       apelido: "Aguiar",
       cor: "#4c4c58",
       frase: "Memento mori.",
-      fotos: ["", "", "", "", ""],
+      fotos: ["", "", "", "", "img/vinicius-aguiar/mc1_5306.jpg"],
       legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
-      texto: `Caso ocorra uma investigação por parte de qualquer órgão federal ou entidade semelhante, esclareço que não tenho qualquer envolvimento com este grupo ou com as pessoas que dele fazem parte; não sei como vim parar aqui — provavelmente fui adicionado por terceiros — e não apoio nenhuma das ações praticadas pelos membros deste grupo.`,
+      texto: `Caso ocorra uma investigação por parte de qualquer órgão federal ou entidade semelhante, esclareço que não tenho qualquer envolvimento com este grupo ou com as pessoas que dele fazem parte; 
+      
+      Não sei como vim parar aqui — provavelmente fui adicionado por terceiros — e não apoio nenhuma das ações praticadas pelos membros deste grupo.`,
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
-      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
-      { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
-      { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
+      { rotulo: "E-mail", link: "mailto:vinchains@proton.me" },
+      { rotulo: "GitHub", link: "https://github.com/vinysdeath" },
+      { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/vinícius-aguiar-3ba1a0426" }
     ]
     },
     /* VITOR EDUARDO AQUINO BALHEFO */
