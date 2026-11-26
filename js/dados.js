@@ -195,9 +195,12 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       frase: "Take More Chances, Dance More Dances.",
       fotos: ["<img src="img/Kick.jpg" alt="Heitorkickbuttowski">
 ", "<img src="R3.jpg" alt="R3">
-", "", "", ""],
+", "<img src="WhatsApp Image 2026-11-26 at 12.50.45 PM.jpg" alt="vó">
+", "<img src="WhatsApp Image 2026-11-26 at 12.50.57 PM.jpg" alt="dance">
+", "<img src="WhatsApp Image 2026-11-26 at 12.51.04 PM.jpg" alt="ufsm">
+"],
       legendas: "<img src="img/Kick.jpg" alt="perfilheitor">
-", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
+", "Halloween", "Gincana 3 ano.", "vó", "..."], 
       texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
 
 Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
