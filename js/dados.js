@@ -21,7 +21,7 @@ const TURMA = {
   nome: "Turma 31",
   curso: "Técnico em Informática Integrado ao Ensino Médio",
   ano: "2026",
-  lema: "Três anos, um código só.",
+  lema: "Três anos, um código..",
   mensagem: "Entramos como calouros curiosos e saímos como desenvolvedores. Este memorial guarda o que construímos, rimos e aprendemos juntos no IFFar. [Substituam por uma mensagem escrita pela turma.]",
   foto: ""
 };
