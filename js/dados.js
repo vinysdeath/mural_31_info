@@ -190,11 +190,14 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
     { 
       id: "heitor-streck",
       nome: "Heitor Streck Ortiz",
-      apelido: "JJpato",
-      cor: "#fde805",
-      frase: "Está tudo bem agora. Por quê? Porque eu estou aqui!",
-      fotos: ["", "", "", "", ""],
-      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
+      apelido: "Heitor",
+      cor: "#FFC222",
+      frase: "Take More Chances, Dance More Dances.",
+      fotos: ["<img src="img/Kick.jpg" alt="Heitorkickbuttowski">
+", "<img src="R3.jpg" alt="R3">
+", "", "", ""],
+      legendas: "<img src="img/Kick.jpg" alt="perfilheitor">
+", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
       texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
 
 Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
