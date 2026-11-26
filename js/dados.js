@@ -198,8 +198,6 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       texto: `Foi massa esses três anos, deu para aprender a dançar e escrever bagulhetes, valeu falou bacanas
        Instagram: @heitorstreck.
   
-
-   
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
       { rotulo: "E-mail", link: "heitor.65065@aluno.iffar.edu.br" },
       { rotulo: "GitHub", link: "https://github.com/HeitoroPato" },
