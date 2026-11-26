@@ -30,7 +30,7 @@ const TURMA = {
 const LINHA_DO_TEMPO = [
   { ano: "1º ano", titulo: "Chegamos e não sabíamos nem onde era o banheiro. A merenda também foi um choque, bom demais.", marcos: ["Primeiro dia no IFFar", "Primeiros contatos com a área de TI", "Gincana de integração"] },
   { ano: "2º ano", titulo: "Aqui o negócio ficou sério, disseram que era o ano mais difícil para o curso de informática, então a gente gelou.", marcos: ["Primeiros sites e trabalhos até então sem IA por que ela estava em ascensão.", "Fizemos o trote com o primeiro ano (destruímos)", "Começaram a rotina de Accs, esportes, oficinas e etc. Aqui a sensação de pertencimento começava a se itensificar.", "No final percebemos que o difícil era o terceirão mesmo, provavelmente."] },
-  { ano: "3º ano", titulo: "The Last Dance.", marcos: ["Projetos e Viagens de ACC.", "Este Memorial Digital", "Escapada magistral do exame", "Busca incessante para completar as horas que a gente tirou de uns cursos malucos.", " E finalmente: Formatura 🎉"] }
+  { ano: "3º ano", titulo: "The Last Dance.", marcos: ["Projetos e Viagens de ACC.", "Este Memorial Digital", "Escapada magistral do exame", "Busca incessante para completar as horas que a gente tirou de uns cursos malucos.", " E finalmente: Formatura 🎉", "E óbvio, no final percebemos que difícil mesmo é nós, a gurizada difícil de lidar. Ninguém para."] }
 ];
 
 // SEÇÃO 3: Galeria de projetos. img: "" gera uma imagem provisória.
@@ -193,12 +193,13 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       apelido: "Mas o Heitor...(geralmente era mesmo)",
       cor: "#FFC222",
       frase: "Take More Chances, Dance More Dances.",
-      fotos: ["img/heitor-streck/Kick.jpeg", "img/heitor-streck/R3", "img/heitor-streck/ufsm", "img/heitor-streck/vo.jpeg", "img/heitor-streck/arte.jpeg"],
+      fotos: ["img/heitor-streck/Kick.jpeg", "img/heitor-streck/R3.jpeg", "img/heitor-streck/ufsm.jpeg", "img/heitor-streck/vo.jpeg", "img/heitor-streck/arte.jpeg"],
       legendas: ["Foto de perfil", "Gincana do 3º ano", "UFSM com os crias", "Vovó", "arte, ou algo assim."],  // 1 legenda por foto
       texto: `Foi massa esses três anos, deu para aprender a dançar e escrever bagulhetes, valeu falou bacanas
        Instagram: @heitorstreck.
+  
 
-Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
+   
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
       { rotulo: "E-mail", link: "heitor.65065@aluno.iffar.edu.br" },
       { rotulo: "GitHub", link: "https://github.com/HeitoroPato" },
