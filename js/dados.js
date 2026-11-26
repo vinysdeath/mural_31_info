@@ -65,15 +65,15 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       id: "bernardo-mach",
       nome: "Bernardo Mach de Lima",
       apelido: "Bernardo",
-      cor: "#0f62fd",
-      frase: "Frase de exemplo.",
-      fotos: ["", "", "", "", "img/bernardo-mach/placeholder.png"],
+      cor: "#7E8C54",
+      frase: "absolute cineme.",
+      fotos: ["img/bernardo-mach/bernardo.jpg", "", "", "", ""],
       legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
-      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+      texto: `Sem mensagem.
 
 Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
-      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "E-mail", link: "machbernardo@gmail.com" },
       { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
@@ -200,7 +200,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
         "img/heitor-streck/R3.jpeg",
         "img/heitor-streck/ufsm.jpeg",
         "img/heitor-streck/vo.jpeg",
-        "img/heitor-streck/arte.jpeg"
+        "img/heitor-streck/heitor1.jpeg"
     ],
 
     legendas: [
@@ -208,7 +208,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
         "Gincana do 3º ano",
         "UFSM com os crias",
         "Vovó",
-        "arte, ou algo assim."
+        "Esporte do coração."
     ],
 
     texto: `Foi massa esses três anos, deu para aprender a dançar e escrever bagulhetes, valeu falou bacanas.
@@ -316,15 +316,27 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       id: "laura-moreira",
       nome: "Laura da Rosa Moreira",
       apelido: "Laura",
-      cor: "#9c3de9ff",
-      frase: "Frase de exemplo.",
-      fotos: ["", "", "", "", ""],
-      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
-      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+      cor: "#880808",
+      frase: "“Não gosto de nada que é raso, de água pela canela. Ou mergulho até encontrar o reino submerso de Atlântida, ou fico à margem, espiando de fora.” — Martha Medeiros",
+      fotos: ["img/laura-moreira/lauraperfil.JPG", "img/laura-moreira/laura1.jpg", "img/laura-moreira/laura2.jpg", "img/laura-moreira/laura3,jpg", "img/laura-moreira/laura5.jpg"],
+      legendas: ["Foto de perfil", "Ensaio de Fotos.", "Gincana terceirão.", "Foto com o melhor professor.", "Formatura"],  // 1 legenda por foto
+      texto: `Se existe algo que aprendi ao longo da minha vida, é que nada se constrói verdadeiramente sozinho. Somos feitos dos lugares de onde viemos, das mãos que nos seguraram, dos abraços que nos acolheram, das pessoas que cruzaram nosso caminho e dos momentos que, mesmo sem perceber, se tornaram parte de nós.
+
+À minha família, agradeço por ser minha raiz, por fazer parte de quem sou e por me ensinar, à sua maneira, o significado de pertencimento. Por ser parte da minha história, dos meus primeiros passos e de tantos capítulos que ainda estão por vir.
+
+Aos meus amigos, agradeço pelos encontros, pelas risadas, pelas conversas, pelo cuidado e por tornarem tantos dias comuns em lembranças extraordinárias. Obrigada por dividirem a vida comigo, por estarem presentes nas minhas conquistas e por fazerem parte de tantas versões de mim.
+
+À fotografia, agradeço por me ensinar a olhar com mais atenção. Por me permitir guardar instantes, eternizar pessoas, registrar sentimentos e encontrar beleza nas coisas mais simples. Por me fazer perceber que, às vezes, a felicidade está em momentos que passam despercebidos, e que algumas coisas merecem ser lembradas para sempre.
+
+E a mim, agradeço por continuar. Por tudo que vivi, por tudo que senti, por cada recomeço, pelas escolhas, pelos sonhos que ainda carrego e pela coragem de seguir construindo meu caminho, mesmo sem saber exatamente onde ele vai me levar.
+
+A cada pessoa, lugar, encontro e memória que atravessou minha vida, deixo minha gratidão. Porque, no fim, são essas coisas que tornam a caminhada tão especial.
+
+Sou feita de muitas histórias, e em cada uma delas existe um pouquinho de alguém que tornou a minha vida mais bonita..
 
 Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
-      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "E-mail", link: "lauradrmoreira@gmail.com" },
       { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
@@ -334,15 +346,15 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       id: "luis-felipe",
       nome: "Luís Felipe Graiczik de Melo",
       apelido: "Polaco",
-      cor: "#3d88e9ff",
-      frase: "Frase de exemplo.",
-      fotos: ["", "", "", "", ""],
-      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
-      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+      cor: "#111184",
+      frase: "DALE GRÊMIO, É OS CARDIAIS.",
+      fotos: ["img/luis-felipe/felipe1.JPG", "img/luis-felipe/felipe2.jpg", "img/luis-felipe/felipe3.jpg", "img/luis-felipe/felipe4.jpg", "img/luis-felipe/felipe5.jpg"],
+      legendas: ["Foto de perfil", "Mept", "Feira de ciências", "Fotos para a Formatura", "JEIF"],  // 1 legenda por foto
+      texto: `Aqui é campeão da Mept, primeiro título de São Borja pela a Mostra de Foguetes, É OS CARDIAIS, 253 metros.
 
 Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
-      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "E-mail", link: "luis.00019@aluno.iffar.edu.br" },
       { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
@@ -352,15 +364,15 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       id: "luis-fernando",
       nome: "Luís Fernando Pereira Flores",
       apelido: "Luisão",
-      cor: "#126bdfff",
-      frase: "Frase de exemplo.",
-      fotos: ["", "", "", "", ""],
-      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
-      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+      cor: "#006400",
+      frase: "",
+      fotos: ["img/luis-fernando/luisao1.jpg", "img/luis-fernando/luisao2.jpg", "img/luis-fernando/luisao3.jpg", "img/luis-fernando/luisao4.jpg", "img/luis-fernando/luisao5.JPG"],
+      legendas: ["Foto de perfil", "Gincana do 3º ano", "Trote terceirão", "Trote times", "Formatura"],  // 1 legenda por foto
+      texto: `Sem mensagem.
 
 Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
-      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "E-mail", link: "luisfernandopflores@gmail.com" },
       { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
