@@ -216,7 +216,7 @@ Instagram: @heitorstreck.`,
 
     contatos: [
         { rotulo: "E-mail", link: "mailto:heitor.65065@aluno.iffar.edu.br" },
-        { rotulo: "GitHub", link: "https://github.com/HeitoroPato" },
+        { rotulo: "Instagram", link: "https://www.instagram.com/heitorstreck/" },
         { rotulo: "Linkedin (Nem tenho, mas se tu entrar vai abrir o gta 5...)", link: "https://playgta5.com/" }
     
     ]
