@@ -22,15 +22,15 @@ const TURMA = {
   curso: "Técnico em Informática Integrado ao Ensino Médio",
   ano: "2026",
   lema: "Três anos, um código..",
-  mensagem: "Entramos como calouros curiosos e saímos como desenvolvedores. Este memorial guarda o que construímos, rimos e aprendemos juntos no IFFar. [Substituam por uma mensagem escrita pela turma.]",
+  mensagem: "Sem texto moggado: a 31 Info operou na aura máxima e não deu chance pra concorrência. Ganhamos tudo — quem discorda só queria estar na nossa turma. Agradecimentos provavelmente sinceros ao IFFar pela estrutura que sustentou a resenha.",
   foto: ""
 };
 
 // SEÇÃO 2: Linha do tempo. Um item por ano; cada ano tem uma lista de marcos.
 const LINHA_DO_TEMPO = [
-  { ano: "1º ano", titulo: "Chegada e descobertas", marcos: ["Primeiro dia no IFFar", "Primeiras aulas de lógica de programação", "Gincana de integração"] },
-  { ano: "2º ano", titulo: "Mão na massa", marcos: ["Primeiros sites e sistemas em grupo", "Viagem de estudo", "Feira de ciências"] },
-  { ano: "3º ano", titulo: "Reta final", marcos: ["Projetos integradores", "Este Memorial Digital", "Formatura 🎉"] }
+  { ano: "1º ano", titulo: "Chegamos e não sabíamos nem onde era o banheiro. A merenda também foi um choque, bom demais.", marcos: ["Primeiro dia no IFFar", "Primeiros contatos com a área de TI", "Gincana de integração"] },
+  { ano: "2º ano", titulo: "Aqui o negócio ficou sério, disseram que era o ano mais difícil para o curso de informática, então a gente gelou.", marcos: ["Primeiros sites e trabalhos até então sem IA por que ela estava em ascensão.", "Fizemos o trote com o primeiro ano (destruímos)", "Começaram a rotina de Accs, esportes, oficinas e etc. Aqui a sensação de pertencimento começava a se itensificar.", "No final percebemos que o difícil era o terceirão mesmo, provavelmente."] },
+  { ano: "3º ano", titulo: "The Last Dance.", marcos: ["Projetos e Viagens de ACC.", "Este Memorial Digital", "Escapada magistral do exame", "Busca incessante para completar as horas que a gente tirou de uns cursos malucos.", " E finalmente: Formatura 🎉"] }
 ];
 
 // SEÇÃO 3: Galeria de projetos. img: "" gera uma imagem provisória.
@@ -190,18 +190,19 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
     { 
       id: "heitor-streck",
       nome: "Heitor Streck Ortiz",
-      apelido: "Heitor",
+      apelido: "Mas o Heitor...(geralmente era mesmo)",
       cor: "#FFC222",
       frase: "Take More Chances, Dance More Dances.",
-      fotos: ["img/heitor-streck/void.png", "", "", "", "",],
-      legendas: ["Eu e a vó", "", "", "", "",], 
-      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+      fotos: ["img/heitor-streck/Kick.jpeg", "img/heitor-streck/R3", "img/heitor-streck/ufsm", "img/heitor-streck/vo.jpeg", "img/heitor-streck/arte.jpeg"],
+      legendas: ["Foto de perfil", "Gincana do 3º ano", "UFSM com os crias", "Vovó", "arte, ou algo assim."],  // 1 legenda por foto
+      texto: `Foi massa esses três anos, deu para aprender a dançar e escrever bagulhetes, valeu falou bacanas
+       Instagram: @heitorstreck.
 
 Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
-      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
-      { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
-      { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
+      { rotulo: "E-mail", link: "heitor.65065@aluno.iffar.edu.br" },
+      { rotulo: "GitHub", link: "https://github.com/HeitoroPato" },
+      { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/Eunãotenholinkedin." }
     ]
     },
     /* ISABELLE MARQUES DOS SANTOS */
@@ -366,7 +367,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
     },
-    /* PIETRO ESCOBAR DA SILVA */
+    /* Luisão */
     { 
       id: "pietro-escobar",
       nome: "Pietro Escobar da Silva",
@@ -496,7 +497,19 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
 
 // SEÇÃO 5: Homenagens
 const HOMENAGENS = [
-  { para: "Professores", icone: "👩‍🏫", texto: "Por cada aula, correção e conselho que nos fez crescer." },
-  { para: "Servidores", icone: "🧑‍🔧", texto: "Pelo cuidado diário que mantém o IFFar funcionando." },
-  { para: "Famílias", icone: "👨‍👩‍👧", texto: "Pelo apoio em cada madrugada de projeto e cada viagem de ônibus." }
+  {
+    para: "Professores",
+    icone: "👩‍🏫",
+    texto: "Obrigado por cada puxão de orelha, cada aula, correção, recuperação seguida de recuperação com mais uma prova substítutiva, e principalmente pelo carinho em guiar-nos pelos mares do ensino. Se hoje chegamos aqui, não poderia ter havido tal façanha senão por intermédio de vocês, docentes... Nossos agradecimentos singelos a todos os profissionais do ensino."
+  },
+  {
+    para: "Servidores",
+    icone: "🧑‍🔧",
+    texto: " Agradecemos piamente pelo cuidado diário que mantém o IFFar funcionando, pelos horários de esportes organizados que geraram boas conversas, como também pela merenda que dipensa apresentações. Nossos agradecimentos verdadeiros à estrutura invisível e visível que atua para a manteneção sob ambos os pés desse campus."
+  },
+  {
+    para: "Famílias",
+    icone: "👨‍👩‍👧",
+    texto: "Obrigado pelo intrínseco apoio estrutural e emocional que nos trouxe até aqui, neste final de uma importante etapa de nossas vidas. Que se as crenças superiores, superstições, e correntes variadas permitirem-nos, possamos assim retribuir todo o esforço durante esses nossos primeiros anos de existência acadêmica. Obrigado pai, obrigado mãe, tios(as), avós e a toda e qualquer configuração familiar que compunha a vida de cada um de nós, alunos."
+  }
 ];
