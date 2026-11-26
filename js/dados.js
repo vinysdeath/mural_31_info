@@ -29,14 +29,14 @@ const TURMA = {
 // SEÇÃO 2: Linha do tempo. Um item por ano; cada ano tem uma lista de marcos.
 const LINHA_DO_TEMPO = [
   { ano: "1º ano", titulo: "Chegamos e não sabíamos nem onde era o banheiro. A merenda também foi um choque, bom demais.", marcos: ["Primeiro dia no IFFar", "Primeiros contatos com a área de TI", "Gincana de integração"] },
-  { ano: "2º ano", titulo: "Aqui o negócio ficou sério, disseram que era o ano mais difícil para o curso de informática, então a gente gelou.", marcos: ["Primeiros sites e trabalhos até então sem IA por que ela estava em ascensão.", "Fizemos o trote com o primeiro ano (destruímos)", "Começaram a rotina de Accs, esportes, oficinas e etc. Aqui a sensação de pertencimento começava a se itensificar.", "No final percebemos que o difícil era o terceirão mesmo, provavelmente."] },
+  { ano: "2º ano", titulo: "Aqui o negócio ficou sério, disseram que era o ano mais difícil para o curso de informática, então a gente gelou.", marcos: ["Primeiros sites e trabalhos até então sem IA por que ela estava em ascensão.", "Fizemos o trote com o primeiro ano (destruímos)", "Começaram a rotina de ACC's, esportes, oficinas e etc. Aqui a sensação de pertencimento começava a se intensificar.", "No final percebemos que o difícil era o terceirão mesmo, provavelmente."] },
   { ano: "3º ano", titulo: "The Last Dance.", marcos: ["Projetos e Viagens de ACC.", "Este Memorial Digital", "Escapada magistral do exame", "Busca incessante para completar as horas que a gente tirou de uns cursos malucos.", " E finalmente: Formatura 🎉", "E óbvio, no final percebemos que difícil mesmo é nós, a gurizada difícil de lidar. Ninguém para."] }
 ];
 
 // SEÇÃO 3: Galeria de projetos. img: "" gera uma imagem provisória.
 const PROJETOS = [
-  { titulo: "Nome do Projeto 1", ano: "2º ano", texto: "Descreva em 2 linhas o que o sistema faz e quem desenvolveu.", tags: ["HTML", "CSS", "JS"], img: "" },
-  { titulo: "Nome do Projeto 2", ano: "3º ano", texto: "Feira de ciências, aplicativo, jogo… conte o desafio e a solução.", tags: ["Banco de dados", "PHP"], img: "" }
+  { titulo: "Lanches coletivos.", ano: "2º ano", texto:"Qualquer desculpa virava lanche coletivo, basicamente. E temos orgulho disso (embora na mesa só se via refrigerantes.)", tags: ["HTML", "CSS", "JS"], img: "" },
+  { titulo: "Trotes de roupas", ano: "3º ano", texto: "Organizamos e participamos de diversos trotes de vestimentas ao longo dos meses.", tags: ["Banco de dados", "PHP"], img: "" }
 ];
 
 // SEÇÃO 4: Alunos. Cada aluno é UM objeto { ... } separado por vírgula.
@@ -191,7 +191,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
 {
     id: "heitor-streck",
     nome: "Heitor Streck Ortiz",
-    apelido: "Mas o Heitor...(geralmente o exemplo era real, mas nem sempre...)",
+    apelido: "Mas o Heitor...(geralmente era culpa minha mesmo, mas nem sempre. Toda sala tem seus problemas, e eu não posso ser todos :).",
     cor: "#FFC222",
     frase: "Take More Chances, Dance More Dances.",
 
@@ -217,7 +217,8 @@ Instagram: @heitorstreck.`,
     contatos: [
         { rotulo: "E-mail", link: "mailto:heitor.65065@aluno.iffar.edu.br" },
         { rotulo: "GitHub", link: "https://github.com/HeitoroPato" },
-        { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/Eunãotenholinkedin." }
+        { rotulo: "Linkedin (Nem tenho, mas se tu entrar vai abrir o gta 5...)", link: "https://playgta5.com/" }
+        { rotulo: "Instagram",link: "https://www.instagram.com/heitorstreck/" }
     ]
 },
     /* ISABELLE MARQUES DOS SANTOS */
