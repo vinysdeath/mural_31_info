@@ -186,24 +186,37 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
     },
+
     /* HEITOR STRECK ORTIZ */
-    { 
-      id: "heitor-streck",
-      nome: "Heitor Streck Ortiz",
-      apelido: "Mas o Heitor...(geralmente era mesmo)",
-      cor: "#FFC222",
-      frase: "Take More Chances, Dance More Dances.",
-      fotos: ["img/heitor-streck/Kick.jpeg", "img/heitor-streck/R3.jpeg", "img/heitor-streck/ufsm.jpeg", "img/heitor-streck/vo.jpeg", "img/heitor-streck/arte.jpeg"],
-      legendas: ["Foto de perfil", "Gincana do 3º ano", "UFSM com os crias", "Vovó", "arte, ou algo assim."],  // 1 legenda por foto
-      texto: `Foi massa esses três anos, deu para aprender a dançar e escrever bagulhetes, valeu falou bacanas
-       Instagram: @heitorstreck.
-  
-    contatos: [                       // rótulo = texto do botão; link = para onde ele leva
-      { rotulo: "E-mail", link: "heitor.65065@aluno.iffar.edu.br" },
-      { rotulo: "GitHub", link: "https://github.com/HeitoroPato" },
-      { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/Eunãotenholinkedin." }
+{
+    id: "heitor-streck",
+    nome: "Heitor Streck Ortiz",
+    apelido: "Mas o Heitor...(geralmente o exemplo era real, mas nem sempre...)",
+    cor: "#FFC222",
+    frase: "Take More Chances, Dance More Dances.",
+    fotos: [
+        "img/heitor-streck/Kick.jpeg",
+        "img/heitor-streck/R3.jpeg",
+        "img/heitor-streck/ufsm.jpeg",
+        "img/heitor-streck/vo.jpeg",
+        "img/heitor-streck/arte.jpeg"
+    ],
+    legendas: [
+        "Foto de perfil",
+        "Gincana do 3º ano",
+        "UFSM com os crias",
+        "Vovó",
+        "arte, ou algo assim."
+    ],
+    texto: `Foi massa esses três anos, deu para aprender a dançar e escrever bagulhetes, valeu falou bacanas.
+Instagram: @heitorstreck.`,
+
+    contatos: [
+        { rotulo: "E-mail", link: "mailto:heitor.65065@aluno.iffar.edu.br" },
+        { rotulo: "GitHub", link: "https://github.com/HeitoroPato" },
+        { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/Eunãotenholinkedin." }
     ]
-    },
+},
     /* ISABELLE MARQUES DOS SANTOS */
     { 
       id: "isabelle-marques",
