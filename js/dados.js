@@ -194,6 +194,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
     apelido: "Mas o Heitor...(geralmente o exemplo era real, mas nem sempre...)",
     cor: "#FFC222",
     frase: "Take More Chances, Dance More Dances.",
+
     fotos: [
         "img/heitor-streck/Kick.jpeg",
         "img/heitor-streck/R3.jpeg",
@@ -201,6 +202,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
         "img/heitor-streck/vo.jpeg",
         "img/heitor-streck/arte.jpeg"
     ],
+
     legendas: [
         "Foto de perfil",
         "Gincana do 3º ano",
@@ -208,6 +210,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
         "Vovó",
         "arte, ou algo assim."
     ],
+
     texto: `Foi massa esses três anos, deu para aprender a dançar e escrever bagulhetes, valeu falou bacanas.
 Instagram: @heitorstreck.`,
 
