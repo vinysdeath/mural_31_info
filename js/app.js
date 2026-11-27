@@ -42,10 +42,10 @@ function renderHome() {
     ALUNOS.map(a => `<a class="card perfil" href="#${a.id}" style="--ac:${a.cor}">
       <img src="${foto(a.fotos[0], "Foto 1", a.cor)}" alt="Foto de ${a.nome}">
       <div><h3>${a.nome}</h3><p>“${a.frase}”</p></div></a>`).join("") +
-    `<div class="card vazio">➕ Próximo aluno:<br>copie o molde em ALUNOS</div></div>`;
+    ``;
 
   // Seção 5
-  $("#homenagens").innerHTML = `<h2>Homenagens</h2> ${g("✍️ Redação · HOMENAGENS")}<div class="grid" style="margin-top:1rem">` +
+  $("#homenagens").innerHTML = `<h2>Homenagens</h2> ${g("✍️ Redação · HOMENAGENS")}<div class="grid" style="margin-top:1rem; grid-template-columns:repeat(2,1fr)">` +
     HOMENAGENS.map(h => `<div class="card"><div style="font-size:2rem">${h.icone}</div><h3>${h.para}</h3><p>${h.texto}</p></div>`).join("") + `</div>`;
 }
 

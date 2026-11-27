@@ -27,7 +27,7 @@ button{font:inherit;cursor:pointer;border:1px solid var(--ac);background:transpa
 button[aria-pressed="true"]{background:var(--ac);color:var(--on)}
 
 /* ===== 3. BLOCOS COMUNS ===== */
-.sec{margin:2.5rem 0}
+.sec{margin:3rem 0}
 .sec>h2{font-size:1.8rem;border-bottom:3px solid var(--verm);display:inline-block;padding-bottom:.15rem}
 .card{background:var(--card);border:1px solid var(--ln);border-radius:14px;padding:1rem}
 .eyebrow{color:var(--ac);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.8rem;margin:0}
@@ -59,7 +59,7 @@ button[aria-pressed="true"]{background:var(--ac);color:var(--on)}
 .avatar{width:130px;height:130px;border-radius:50%;object-fit:cover;border:5px solid var(--ac)}
 .frase{font-style:italic;color:var(--mu);font-size:1.1rem;margin:.2rem 0}
 .texto p{max-width:65ch}
-.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:.6rem}
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:.9rem; row-gap:1.5rem}
 .gal figure{margin:0}
 .gal img{width:100%;height:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;cursor:zoom-in}
 .gal figcaption{font-size:.8rem;color:var(--mu)}
