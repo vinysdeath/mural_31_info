@@ -254,8 +254,8 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       apelido: "Muriel",
       cor: "#6c519d",
       frase: "O real não está na saída nem na chegada, ele se dispõe para a gente é no meio da travessia.",
-      fotos: ["", "", "", "", ""],
-      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
+      fotos: ["img/jose/jose1.jpg", "img/jose/jose2.jpg", "img/jose/jose3.jpg", "img/jose/jose4.jpg", "img/jose/jose5.jpg"],
+      legendas: ["Foto de perfil", "Cardiais", "Os d vdd", "Só os auras", "Dream team"],  // 1 legenda por foto
       texto: `Agradeço a todos que fizeram parte dessa etapa, espero que apesar dos rumos diferentes, nunca esqueçamos do que vivemos aqui. As pessoas vão, mas as memórias ficam.`,
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
       { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
