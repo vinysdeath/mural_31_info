@@ -173,15 +173,23 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       id: "gustavo-gamarra",
       nome: "Gustavo Gamarra Fagundes",
       apelido: "Gamarra",
-      cor: "#f59f1dff",
-      frase: "Frase de exemplo.",
-      fotos: ["", "", "", "", ""],
-      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
-      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+      cor: "#151E3F",
+      frase: "Quem decide seu futuro é você.",
+      fotos: ["img/gustavo-gamarra/gamarra1.jpg", "img/gustavo-gamarra/gamarra2.jpg", "img/gustavo-gamarra/gamarra3.jpg", "img/gustavo-gamarra/gamarra4.jpg", "gustavo-gamarra/gamarra5.jpg"],
+      legendas: ["Foto de perfil", "Trote personagens (Finn e Jake (hora de aventura))", "Feira de ciências", "Eu", "Joguin maneiro"],  // 1 legenda por foto
+      texto: `Mesmo que esteja tudo dando errado, siga de cabeça erguida, não aceite a derrota se você pode conquistar algo maior.
+
+Quando pensar em desistir, pense em o que está se perdendo, no que você sacrificou e o que pode mudar se não desistir.
+
+Sempre que disserem que você não consegue, ou que te chamam de inútil, faça o seu melhor, e mostre a todos que estão errados.
+
+Não deixe emoções, sentimentos pessoais e nem pessoas de fora estragarem quem você é, foque em você e faça com que a cada dificuldade seja mais uma forma de melhorar.
+
+Se a vida fosse um jogo de vídeo game, você desistiria no primeiro Boss? Ou iria descobrir uma forma de ganhar dele?.
 
 Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
-      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "E-mail", link: "gustavo.14050@aluno.iffar.edu.br" },
       { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
@@ -318,7 +326,7 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       apelido: "Laura",
       cor: "#880808",
       frase: "“Não gosto de nada que é raso, de água pela canela. Ou mergulho até encontrar o reino submerso de Atlântida, ou fico à margem, espiando de fora.” — Martha Medeiros",
-      fotos: ["img/laura-moreira/lauraperfil.JPG", "img/laura-moreira/laura1.jpg", "img/laura-moreira/laura2.jpg", "img/laura-moreira/laura3,jpg", "img/laura-moreira/laura5.jpg"],
+      fotos: ["img/laura-moreira/lauraperfil.JPG", "img/laura-moreira/laura1.jpg", "img/laura-moreira/laura2.jpg", "img/laura-moreira/laura3.jpg", "img/laura-moreira/laura5.JPG"],
       legendas: ["Foto de perfil", "Ensaio de Fotos.", "Gincana terceirão.", "Foto com o melhor professor.", "Formatura"],  // 1 legenda por foto
       texto: `Se existe algo que aprendi ao longo da minha vida, é que nada se constrói verdadeiramente sozinho. Somos feitos dos lugares de onde viemos, das mãos que nos seguraram, dos abraços que nos acolheram, das pessoas que cruzaram nosso caminho e dos momentos que, mesmo sem perceber, se tornaram parte de nós.
 
@@ -490,15 +498,15 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       id: "vitoria-bonato",
       nome: "Vitória Carvalho Bonato",
       apelido: "Vi",
-      cor: "#f1a0d9ff",
-      frase: "Frase de exemplo.",
-      fotos: ["", "", "", "", ""],
-      legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
-      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
+      cor: "#69239E",
+      frase: "Beyond matter, the spirit endures.",
+      fotos: ["img/vitoria-bonato/vi5.jpeg", "img/vitoria-bonato/vi1.jpeg", "img/vitoria-bonato/vi2.jpeg", "img/vitoria-bonato/vi3.jpeg", "img/vitoria-bonato/vi4.jpeg"],
+      legendas: ["Foto de perfil", "Esse é o IFF.", "Formatura", "As migaloka", "lilita"],  // 1 legenda por foto
+      texto: `Os três anos no IFFAR passaram muito rápido,  aprendi muito durante esses anos, agradeço aos professores por toda essa dedicação ao longo desta jornada!.
 
 Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
-      { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
+      { rotulo: "E-mail", link: "vitoria.73030@aluno.iffar.edu.br" },
       { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
       { rotulo: "LinkedIn", link: "https://www.linkedin.com/in/seu-usuario" }
     ]
