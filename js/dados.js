@@ -252,13 +252,11 @@ Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site sepa
       id: "jose-muriel",
       nome: "José Muriel Fagundes Boeira",
       apelido: "Muriel",
-      cor: "#e7510c",
-      frase: "Frase de exemplo.",
+      cor: "#6c519d",
+      frase: "O real não está na saída nem na chegada, ele se dispõe para a gente é no meio da travessia.",
       fotos: ["", "", "", "", ""],
       legendas: ["Foto de perfil", "Gincana do 1º ano", "Feira de ciências", "Viagem de estudo", "Formatura"],  // 1 legenda por foto
-      texto: `Aqui entra o texto livre enviado pelo aluno. Pode ser uma mensagem de despedida, uma memória favorita, um agradecimento.
-
-Para criar um novo parágrafo, deixe uma linha em branco, como esta. O site separa os parágrafos sozinho.`,
+      texto: `Agradeço a todos que fizeram parte dessa etapa, espero que apesar dos rumos diferentes, nunca esqueçamos do que vivemos aqui. As pessoas vão, mas as memórias ficam.`,
     contatos: [                       // rótulo = texto do botão; link = para onde ele leva
       { rotulo: "E-mail", link: "mailto:aluno@exemplo.com" },
       { rotulo: "GitHub", link: "https://github.com/seu-usuario" },
